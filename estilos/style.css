@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    Azul da Prússia(azul escuro):  0E273C#
+    Níquel(cinza claro) :  #6B7D7D
+    Branco : #FFFBFA
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body, html {
+    background-color:  #0E273C;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #FFFBFA;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
+}
+
+#imagem {
+    display: block;
+    background: #0E273C url("../imagem/pexels.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+#formulario {
+
+    display: block;
+    padding: 10px;
+
+}
